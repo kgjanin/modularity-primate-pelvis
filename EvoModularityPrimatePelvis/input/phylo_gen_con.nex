@@ -1,0 +1,142 @@
+#NEXUS
+[written Tue Jul 27 15:09:20 BST 2021 by Mesquite  version 3.2 (build 801) at dhcp-10-248-233-172.eduroam.wireless.private.cam.ac.uk/10.248.233.172]
+
+BEGIN TAXA;
+	TITLE Untitled_Block_of_Taxa;
+	DIMENSIONS NTAX=49;
+	TAXLABELS
+		Alouatta_seniculus Ateles_geoffroyi Ateles_paniscus Cebus_apella Cebus_capucinus Cercocebus_galeritus Cercopithecus_ascanius Cercopithecus_cephus Cercopithecus_hamlyni Cercopithecus_lhoesti Cercopithecus_mitis Cercopithecus_mona Cercopithecus_neglectus Cercopithecus_nictitans Chlorocebus_aethiops Colobus_guereza Colobus_polykomos Daubentonia_madagascariensis Erythrocebus_patas Eulemur_fulvus Gorilla_beringei Gorilla_gorilla Hylobates_lar Indri_indri Lagothrix_lagotricha Lemur_catta Lophocebus_albigena Lophocebus_aterrimus Macaca_fascicularis Macaca_maura Macaca_mulatta Macaca_nemestrina Mandrillus_sphinx Nycticebus_coucang Otolemur_crassicaudatus Pan_paniscus Pan_troglodytes Papio_anubis Papio_cynocephalus Papio_hamadryas Piliocolobus_badius Piliocolobus_kirkii Pongo_pygmaeus Presbytis_comata Pygathrix_nemaeus Semnopithecus_entellus Symphalangus_syndactylus Theropithecus_gelada Varecia_variegata 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "consensusTree_10kTrees_Primates_Version3 (4).nex"';
+	ID 017ae846eac25;
+	LINK Taxa = Untitled_Block_of_Taxa;
+	TRANSLATE
+[0] 		1 Alouatta_seniculus,
+[1] 		2 Ateles_geoffroyi,
+[2] 		3 Ateles_paniscus,
+[3] 		4 Cebus_apella,
+[4] 		5 Cebus_capucinus,
+[5] 		6 Cercocebus_galeritus,
+[6] 		7 Cercopithecus_ascanius,
+[7] 		8 Cercopithecus_cephus,
+[8] 		9 Cercopithecus_hamlyni,
+[9] 		10 Cercopithecus_lhoesti,
+[10] 		11 Cercopithecus_mitis,
+[11] 		12 Cercopithecus_mona,
+[12] 		13 Cercopithecus_neglectus,
+[13] 		14 Cercopithecus_nictitans,
+[14] 		15 Chlorocebus_aethiops,
+[15] 		16 Colobus_guereza,
+[16] 		17 Colobus_polykomos,
+[17] 		18 Daubentonia_madagascariensis,
+[18] 		19 Erythrocebus_patas,
+[19] 		20 Eulemur_fulvus,
+[20] 		21 Gorilla_beringei,
+[21] 		22 Gorilla_gorilla,
+[22] 		23 Hylobates_lar,
+[23] 		24 Indri_indri,
+[24] 		25 Lagothrix_lagotricha,
+[25] 		26 Lemur_catta,
+[26] 		27 Lophocebus_albigena,
+[27] 		28 Lophocebus_aterrimus,
+[28] 		29 Macaca_fascicularis,
+[29] 		30 Macaca_maura,
+[30] 		31 Macaca_mulatta,
+[31] 		32 Macaca_nemestrina,
+[32] 		33 Mandrillus_sphinx,
+[33] 		34 Nycticebus_coucang,
+[34] 		35 Otolemur_crassicaudatus,
+[35] 		36 Pan_paniscus,
+[36] 		37 Pan_troglodytes,
+[37] 		38 Papio_anubis,
+[38] 		39 Papio_cynocephalus,
+[39] 		40 Papio_hamadryas,
+[40] 		41 Piliocolobus_badius,
+[41] 		42 Piliocolobus_kirkii,
+[42] 		43 Pongo_pygmaeus,
+[43] 		44 Presbytis_comata,
+[44] 		45 Pygathrix_nemaeus,
+[45] 		46 Semnopithecus_entellus,
+[46] 		47 Symphalangus_syndactylus,
+[47] 		48 Theropithecus_gelada,
+[48] 		49 Varecia_variegata;
+	TREE consensus_49species = (((((((((11:0.018714,14:0.018792):0.013276,(7:0.008514,8:0.011306):0.021071):0.006369,((12:0.036669,13:0.038533):0.008361,9:0.044664):0.003859):0.01202,((10:0.042501,19:0.038673):0.003442,15:0.047061):0.006077):0.026559,(((6:0.026162,33:0.029272):0.031762,(((27:0.004945,28:0.003614):0.025255,48:0.025377):0.005307,((38:0.005398,40:0.007828):0.004776,39:0.010235):0.021218):0.031669):0.008593,((30:0.032347,32:0.020101):0.027067,(29:0.026909,31:0.022634):0.008284):0.041139):0.014824):0.046493,(((16:0.011442,17:0.011649):0.056534,(41:0.024063,42:0.029845):0.041142):0.01619,((45:0.082335,46:0.075044):0.003543,44:0.08394):0.016653):0.048916):0.086552,((23:0.037498,47:0.030998):0.07154,(((21:0.01162,22:0.013629):0.028212,(36:0.012528,37:0.01125):0.034609):0.036137,43:0.086661):0.027204):0.064662):0.09492,((1:0.064373,((2:0.022896,3:0.009993):0.034141,25:0.045229):0.027579):0.022124,(5:0.04358,4:0.030819):0.093858):0.179014):0.187179,(((24:0.130529,((20:0.072396,26:0.061006):0.022025,49:0.095389):0.045718):0.074221,18:0.20653):0.035687,(34:0.177203,35:0.157596):0.159023):0.044877);
+
+END;
+
+
+< br / >
+ < b > Warning < / b > :  session_write_close ( ) expects exactly 0 parameters , 1 given in < b > / var / www / 10ktrees.nunn - lab.org / sendTreesToUser.php < / b > on line < b > 98 < / b > < br / >
+
+
+END;
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1627394960503;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 88413478231021060;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1071 1019;
+			setLocation 1556 3;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #88413478231021060 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #88413478231021060;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 971 947;
+					setLocation 1556 3;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam;
+					endTell;
+					setActive;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
